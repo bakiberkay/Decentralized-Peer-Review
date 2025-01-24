@@ -1,0 +1,10 @@
+Fault Codes
+0 : Review appears to be honest and attentive
+1 : Bad faith review
+2 : Inattentive review (will have reasons within, merged for simplicity for now)
+3 : Too short to be meaningful
+
+Replace the numbers in "reason" with strings containing these words,
+probably will be handled in the frontend
+
+\`Inattentive review: \${description}\`
